@@ -1,7 +1,4 @@
 
-*{
-
-}
 
 
 .card {
@@ -12,7 +9,7 @@
     border-radius: 10px;
     background-color:  #01C3A7;
     background-image: url(Mint_green.png);
-    font-family: 'Tangerine', cursive;
+    font-family: 'Laila', serif;
 
 }
 
@@ -45,37 +42,47 @@ h3{
 }
 
 .info{
-padding: 10px;
-border: 1px solid black;
-border-radius: 20px;
-background-color: whitesmoke;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: whitesmoke;
 
 
 }   
 
 #description{
    
+    font-family: 'Laila', serif;
+    font-size: large ;
 }
 
 #list-items{
+    list-style:none;
+    padding-left: 0px;
+
 
 
 }
 
 #list-items span{
-   
+   padding-left: 0%;
 
 }
 
 .quote{
-    font-family: 'Tangerine', cursive;
-    font-size: x-large ;
 
+    font-size: large ;
+    font-weight: bold;
+    margin-bottom: 0px;
+
+    
 
 }
 
 .indent{
-    font-family: 'Tangerine', cursive;
+    margin-top: 0px;
+    font-family: 'Laila', serif;
     font-size: small     ;
+    padding-top: 0;
 
 }
